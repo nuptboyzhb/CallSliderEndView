@@ -9,47 +9,7 @@ Demo
 
 Demo Pic
 
-![image](https://github.com/nuptboyzhb/DownloadProgressViewDemo/blob/master/demo/demo.png)
-
-
-----------
-Usage
-
-```
-    @Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		downloadProgressView1 = (DownloadProgressView) findViewById(R.id.wpv_download_1);
-		downloadProgressView1.setMax(100);
-		downloadProgressView1.setMaxFileLenght(20);
-
-		downloadProgressView2 = (DownloadProgressView) findViewById(R.id.wpv_download_2);
-		downloadProgressView2.setMax(100);
-		downloadProgressView2.setMaxFileLenght(8);
-		
-		downloadProgressView3 = (DownloadProgressView) findViewById(R.id.wpv_download_3);
-		downloadProgressView3.setMax(100);
-		downloadProgressView3.setMaxFileLenght(19);
-
-		new Thread(this).start();
-	}
-
-	@Override
-	public void run() {
-
-		for (int i = 0; i <= 100; i++) {
-			downloadProgressView1.setProgress(i);
-			downloadProgressView2.setProgress(i);
-			downloadProgressView3.setProgress(i);
-			try {
-				Thread.sleep(100);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
-	}
-```
+![image](https://github.com/nuptboyzhb/CallSliderEndView/blob/master/demo/demo.png)
 
 
 License
