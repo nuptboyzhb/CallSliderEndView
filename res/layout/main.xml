@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/net.mobctrl.callendview"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="horizontal" >
+    <net.mobctrl.callendview.CallSliderEndView
+        android:id="@+id/csev_slider_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        app:backgroundColor="#ffffff"
+        app:progressBackgroundColor="#ffff1221"
+        app:text="滑动挂断"
+        app:textSize="24sp" />
+</RelativeLayout>

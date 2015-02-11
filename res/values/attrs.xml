@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 语音进度条 -->
+    <declare-styleable name="CallSliderEndView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+</resources>
